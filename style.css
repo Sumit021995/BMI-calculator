@@ -1,6 +1,6 @@
 .container {
-    width: 575px;
-    height: 725px;
+    width: 375px;
+    height: auto;
   
     background-color: #797978;
     padding-left: 30px;
@@ -17,11 +17,12 @@
   #weight-guide {
     margin-left: 75px;
     margin-top: 25px;
-   font-size: larger;
+    padding-bottom: 25px;
+   font-size: large;
   }
   
   #results {
-    font-size: 35px;
+    font-size: 25px;
     margin-left: 90px;
     margin-top: 20px;
     color: rgb(241, 241, 241);

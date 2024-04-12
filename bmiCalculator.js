@@ -18,13 +18,13 @@ form.addEventListener('submit', function (s) {
     // results.innerHTML = `<span>${bmi}</span>`
     // assignment
     if(bmi > 0 && bmi <= 18.6){
-        results.innerHTML = `<span>${bmi}</span><br>" You are Under Weight"`
+        results.innerHTML = `<span> BMI-${bmi}</span><br>" You are Under Weight"`
         
     }else if (bmi > 18.6 && bmi <= 24.9){
-        results.innerHTML = `<span> ${bmi}</span><br>" You are Fit" `
+        results.innerHTML = `<span> BMI-${bmi}</span><br>" You are Fit" `
         
     }else{
-        results.innerHTML = `<span>${bmi}</span><br>" You are Over Weight"`
+        results.innerHTML = `<span> BMI-${bmi}</span><br>" You are Over Weight"`
 
     }
   }
