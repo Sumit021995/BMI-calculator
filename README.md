@@ -17,4 +17,4 @@ Clone or download the project repository to your local machine.
 Open the index.html file in your web browser.
 
 <h2>Screenshots:</h2>
-
+<img src="./bmicalculator.PNG"/>
